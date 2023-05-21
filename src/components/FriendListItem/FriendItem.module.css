@@ -1,0 +1,19 @@
+.listItem {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.status {
+  margin-right: 10px;
+}
+.friendAvatar {
+  margin-right: 10px;
+  border-radius: 15%;
+
+  background-color: rgb(247, 244, 244);
+}
+.friendName {
+  font-size: 25px;
+  font-weight: 600;
+}

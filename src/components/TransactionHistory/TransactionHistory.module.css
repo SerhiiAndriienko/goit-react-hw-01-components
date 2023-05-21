@@ -1,0 +1,26 @@
+.tableGeneral {
+  margin: 0 auto;
+  width: 400px;
+  border-collapse: collapse;
+}
+.tableGeneral th,
+.tableGeneral td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+.tableGeneral th {
+  background-color: #0ad9f5;
+  color: aliceblue;
+}
+tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+td:not(:first-child),
+th:not(:first-child) {
+  text-align: center;
+}
+td:first-child,
+th:first-child {
+  padding-left: 50px;
+}
